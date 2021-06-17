@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx", "UniRx.csproj", "{D6A01396-CD29-F0EC-5BE9-68261656C468}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B4A5B881-C7CD-A82A-377E-65DE0C023E9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.csproj", "{4461227C-36A4-6BE6-1778-5A5443AEC2D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.Platform", "Oculus.Platform.csproj", "{CA044BCC-D7D0-7596-2E21-3903335F921B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniRx.Examples", "UniRx.Examples.csproj", "{6C7DC650-603E-B32D-BC77-2A2F39489C23}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{13F4EAA6-F031-D666-D60D-58FB25676E0D}"
 EndProject
@@ -21,6 +25,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6A01396-CD29-F0EC-5BE9-68261656C468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A01396-CD29-F0EC-5BE9-68261656C468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A01396-CD29-F0EC-5BE9-68261656C468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A01396-CD29-F0EC-5BE9-68261656C468}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4A5B881-C7CD-A82A-377E-65DE0C023E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B4A5B881-C7CD-A82A-377E-65DE0C023E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4A5B881-C7CD-A82A-377E-65DE0C023E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +41,10 @@ Global
 		{CA044BCC-D7D0-7596-2E21-3903335F921B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA044BCC-D7D0-7596-2E21-3903335F921B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA044BCC-D7D0-7596-2E21-3903335F921B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7DC650-603E-B32D-BC77-2A2F39489C23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7DC650-603E-B32D-BC77-2A2F39489C23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7DC650-603E-B32D-BC77-2A2F39489C23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7DC650-603E-B32D-BC77-2A2F39489C23}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13F4EAA6-F031-D666-D60D-58FB25676E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13F4EAA6-F031-D666-D60D-58FB25676E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13F4EAA6-F031-D666-D60D-58FB25676E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
