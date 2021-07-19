@@ -217,9 +217,17 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\OculusSpatializerUnity.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\helpers\ONSPReflectionZone.cs" />
+    <Compile Include="Assets\Scripts\ArrowController.cs" />
     <Compile Include="Assets\Scripts\ArrowObject.cs" />
-    <Compile Include="Assets\Scripts\GrabObject.cs" />
-    <Compile Include="Assets\Scripts\WeponObject.cs" />
+    <Compile Include="Assets\Scripts\BowObject.cs" />
+    <Compile Include="Assets\Scripts\EnemyManager.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Manager.cs" />
+    <Compile Include="Assets\Scripts\Enemy_Parent.cs" />
+    <Compile Include="Assets\Scripts\PointCount.cs" />
+    <Compile Include="Assets\Scripts\ShotObject.cs" />
+    <Compile Include="Assets\Scripts\VR_game.cs" />
+    <Compile Include="Assets\Scripts\WeaponObject.cs" />
+    <Compile Include="Assets\Scripts\practice.cs" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
@@ -830,10 +838,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{D6A01396-CD29-F0EC-5BE9-68261656C468}</Project>
-      <Name>UniRx</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{CA044BCC-D7D0-7596-2E21-3903335F921B}</Project>
       <Name>Oculus.Platform</Name>

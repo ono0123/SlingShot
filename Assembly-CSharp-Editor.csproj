@@ -690,10 +690,6 @@
       <Project>{B4A5B881-C7CD-A82A-377E-65DE0C023E9D}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="UniRx.csproj">
-      <Project>{D6A01396-CD29-F0EC-5BE9-68261656C468}</Project>
-      <Name>UniRx</Name>
-    </ProjectReference>
     <ProjectReference Include="Oculus.Platform.csproj">
       <Project>{CA044BCC-D7D0-7596-2E21-3903335F921B}</Project>
       <Name>Oculus.Platform</Name>
